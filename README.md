@@ -1,9 +1,7 @@
 ## Simple Voice Package
--------------------------
 This ROS package plays wave format file data when get some "/state" topic messages.
 
 ## Installation
-------------------------
 PyAudio and PyYaml is required for this package.
 Before using this package, you have to install this two python modules.
 
@@ -26,7 +24,6 @@ $ cd .. && catkin_make
 ```
 
 ## Wave File Config
-------------------------
 You can add and set up some wav files you'er likely to use.
 Add your files under the asssets/wav directory and edit the voice_list.yml.
 
