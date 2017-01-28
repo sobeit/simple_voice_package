@@ -24,8 +24,8 @@ $ cd .. && catkin_make
 ```
 
 ## Wave File Config
-You can add and set up some wav files you'er likely to use.
-Add your files under the asssets/wav directory and edit the voice_list.yml.
+You can add and set up some wav files you're likely to use.
+Add your files under the assets/wav directory and edit the voice_list.yml like this exmaple.
 
 **Example**
 ```
