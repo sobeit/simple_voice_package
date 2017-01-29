@@ -2,8 +2,8 @@
 This ROS package plays wave format file data when get some "/state" topic messages.
 
 ## Installation
-PyAudio and PyYaml is required for this package.
-Before using this package, you have to install this two python modules.
+PyAudio and PyYaml are required for this package.
+Before using this package, you have to install these two python modules.
 
 Use pip for installing.
 
@@ -38,5 +38,5 @@ Add your files under the assets/wav directory and edit the voice_list.yml like t
 7:
 ```
 
-In this example, if getting /state topic message including "1", it will play "aaa.wav" file.
+In this example, if getting /state topic message including "1", it plays "aaa.wav" file.
 
