@@ -29,7 +29,7 @@ def callback(data):
 
 def listener():
     rospy.init_node('state_voice',anonymous=True)
-    rospy.Subscriber("state",Int32,callback)
+    rospy.Subscriber("/robot/state",Int32,callback)
     rospy.spin()
 
 def close_all():
